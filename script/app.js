@@ -86,11 +86,9 @@ function createBoard() {
     } else {
       square.classList.add(i % 2 === 0 ? "brown" : "beige");
     }
-
     if (i <= 15) {
     } else {
     }
-
     gameBoard.append(square);
   });
 }
